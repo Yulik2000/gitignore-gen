@@ -1,0 +1,13 @@
+{
+  "name": "gitignore-gen",
+  "version": "1.0.0",
+  "description": "CLI tool to generate .gitignore files for different technologies.",
+  "main": "bin/index.js",
+  "bin": {
+    "gitignore-gen": "./bin/index.js"
+  },
+  "keywords": ["gitignore", "cli", "nodejs"],
+  "author": "Твоє Ім’я",
+  "license": "MIT",
+  "type": "commonjs"
+}
