@@ -9,7 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "gitignore", "generator", "tool"],
+  "keywords": [
+    "cli",
+    "gitignore",
+    "generator",
+    "tool"
+  ],
   "author": "Yulik2000",
   "license": "MIT",
   "type": "commonjs",
@@ -20,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Yulik2000/gitignore-gen/issues"
   },
-  "homepage": "https://github.com/Yulik2000/gitignore-gen#readme"
+  "homepage": "https://github.com/Yulik2000/gitignore-gen#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }

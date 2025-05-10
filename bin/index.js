@@ -18,3 +18,6 @@ if (!fs.existsSync(filePath)) {
 
 fs.copyFileSync(filePath, '.gitignore');
 console.log(`✅ .gitignore for '${tech}' created.`);
+import chalk from 'chalk';
+
+console.log(chalk.green("✅ .gitignore згенеровано успішно!"));
