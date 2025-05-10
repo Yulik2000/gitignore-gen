@@ -1,4 +1,11 @@
-version: 1
+version: 1.0.0
 codeOwners:
-  - 0x96D0dF7d558aB8513c7AeB6eF23cB7F2e453E492
+  - github: Yulik2000
+project:
+  description: Simple CLI tool to generate .gitignore files
+  homepage: https://github.com/Yulik2000/gitignore-gen
+  license: MIT
+  languages:
+    - javascript
+  source: .
 quorum: 1
